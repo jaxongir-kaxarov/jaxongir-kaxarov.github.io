@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Веб-дизайн + верстка</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<link rel="stylesheet" href="../css/style.min.css" type="text/css" />
+	<link rel="stylesheet" href="../css/plyr.css" type="text/css" />
+</head>
+<body>
+<div class="container">
+	<div class="wrap">
+		<header class="header">
+			<div class="header__left">
+				<a target="_blank" href="https://webformyself.com/">
+					<img src="../img/logo.png" alt="WebForMyself">
+				</a>
+			</div>
+		</header>
+		<section class="content">
+			<nav class="content__left">
+				<ul class="content__menu menu">
+					<li class="menu__element">
+						<a class="menu__link" href="../../index.html">Главная</a>
+					</li>
+					<li class="menu__element">
+						<a target="_blank" class="menu__link" href="https://webformyself.com/nashi-kursy/">Другие инфопродукты</a>
+					</li>
+					<li class="menu__element">
+						<a target="_blank" class="menu__link" href="https://webformyself.com/forum/">Поситите наш форум</a>
+					</li>
+					<li class="menu__element">
+						<a target="_blank" class="menu__link" href="https://webformyself.support-desk.ru/">Служба поддержки</a>
+					</li>
+				</ul>
+			</nav>
+			<main class="content__right">
+				<div class="video content__video">
+					<div class="video__top">
+						<p class="video__type">Блок 4. Верстка</p>
+						<p class="video__name">Адаптивность второго экрана</p>
+					</div>
+					<div class="video__iframe">
+						<video id="player" playsinline controls>
+							<source src="10.mp4" type="video/mp4" />
+						</video>
+					</div>
+					<div class="video__bottom">
+						<a class="video__prev" href="part4_9.html">Предыдущий урок</a>
+						<a class="video__list" href="../part2.html#part2">К списку уроков</a>
+						<a class="video__next" href="part4_11.html">Следующий урок</a>
+					</div>
+				</div>
+			</main>
+		</section>
+	</div>
+	<footer class="footer">
+		<div class="footer__wrap wrap">
+			<div class="footer__block">
+				<p class="footer__copy">Все права защищены.<br> WebForMySelf, &copy; 2019</p>
+				<p class="footer__zakon">«Любое незаконное использование настоящего информационного<br> продукта преследуется по закону»</p>
+				<p class="footer__author">Автор курса:<br>Даниил Волосатов<br>Булыга Денис</p>
+				<a target="_blank" href="https://webformyself.com/">
+					<img src="../img/logo.png" alt="WebForMyself">
+				</a>
+			</div>
+			<p class="footer__graph">
+				*Иконки взяты с сайта <a target="_blank" href="https://www.flaticon.com/">www.flaticon.com</a><br>
+				*Используется Plyr плеер с сайта <a target="_blank" href="https://plyr.io/">www.plyr.io</a>
+			</p>
+		</div>
+	</footer>
+</div>
+<script src="../js/plyr.js"></script>
+<script>
+    const player = new Plyr('#player');
+</script>
+</body>
+</html>

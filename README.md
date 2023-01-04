@@ -1,3 +1,2 @@
-# jaxongir-kaxarov.github.io
-Veb sayt 
-https://jaxongir-kaxarov.github.io/index.html
+# Jakhongir-Kakharov.github.io
+My portfolio page.

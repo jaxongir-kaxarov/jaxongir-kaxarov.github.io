@@ -1,3 +1,9 @@
+<!--- basic page needs
+================================================== -->
+
+
+
+
 <!DOCTYPE html>
 <html class="no-js ss-preload" lang="en">
 <head>
@@ -5,9 +11,9 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Luther</title>
+    <title><span class="lng-name">Jakhongir.</span></title>
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Jakhongir Kakharov">
 
     <!-- mobile specific metas
     ================================================== -->
@@ -56,36 +62,45 @@
         <header class="s-header">
 
             <div class="header-mobile">
-                <span class="mobile-home-link"><a href="index.html">Jakhongir.</a></span>
+                <span class="mobile-home-link"><a href="index.html"><span class="lng-logomobile">Jakhongir.</span></a></span>
                 <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
             </div>
 
             <div class="row wide main-nav-wrap">
                 <nav class="column lg-12 main-nav">
                     <ul>
-                        <li class="current"><a href="#intro" class="smoothscroll">Jakhongir.</a></li>
-                        <li><a href="#about" class="smoothscroll">About</a></li>
-                        <li><a href="#works" class="smoothscroll">Courses</a></li>
-                        <li><a href="#contact" class="smoothscroll">Contacts</a></li>
-                        <!-- <li><a href="index.html" class="home-link">Vlog</a></li> -->
+                        <li class="current"><a href="#intro" class="smoothscroll"><span class="lng-logo">Jakhongir.</span></a></li>
+                        <li><a href="#about" class="smoothscroll"><span class="lng-aboutme">About me</span></a></li>
+                        <li><a href="#works" class="smoothscroll"><span class="lng-kurs">Courses</span></a></li>
+                        <li><a href="index.html" class="home-link"><span class="lng-blog">Blog</span></a></li>
+                        <li><a href="#contact" class="smoothscroll"><span class="lng-contacts">Contacts</span></a></li>
                         <li>
-                            <ul>
-                                <li><a href="eng.html" class="home-link">EN</a></li>
-                                <li><a href="rus.html" class="home-link">RU</a></li>
-                                <li><a href="uzb.html" class="home-link">UZ</a></li>
-                            </ul>
+                            <a href="#0" class="smoothscroll ">
+                                <div class="ss-custom-select lg-5 tab-4">
+                                    <select class="u-fullwidth" id="sampleRecipientInput">
+                                        <option value="uz" selected>UZ</option>
+                                        <option value="ru">RU</option>
+                                        <option value="en">EN</option>
+                                    </select>
+                                </div>
+                            </a>
                         </li>
+                        
                     </ul>
+
+                    
+                    
                 </nav>
+                
             </div>
 
         </header> <!-- end s-header -->
 
 
+
         <!-- ## main content
         ==================================================- -->
         <main class="s-content">
-
 
             <!-- ### intro
             ================================================== -->
@@ -94,23 +109,22 @@
                 <div class="row intro-content wide">
 
                     <div class="column">
-                        <div class="text-pretitle with-line">
+                        <div class="text-pretitle with-line lng-hello">
                             Hello Everyone!
                         </div>
 
                         <h1 class="text-huge-title">
-                            I am Jakhongir, <br>
-                            a 1C Developer<br>
-                            & 1C Coach based<br> 
-                            in Freelance. <br>
+                            <span class="lng-iam">I am Jakhongir, <br></span>
+                            <span class="lng-onecdev">a 1C Developer <br></span>
+                            <span class="lng-coach">& 1C Coach.</span>
                         </h1>
                     </div>
 
                     <ul class="intro-social">
-                        <li><a href="#0">Telegram</a></li>
-                        <li><a href="#0">Twitter</a></li>
-                        <li><a href="#0">Youtube</a></li>
-                        <li><a href="#0">Instagram</a></li>
+                        <!-- <li><a href="https://t.me/one_c_developer" target="_blank">Telegram</a></li> -->
+                        <li><a href="https://t.me/jakhongir_kakharov" target="_blank">Telegram</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCXhSAnLTBkfccZupuLLgxJA" target="_blank">Youtube</a></li>
+                        <li><a href="#0" target="_blank">Instagram</a></li>
                     </ul>
 
                 </div> <!-- end intro content -->
@@ -138,16 +152,14 @@
                         <div class="about-info__text" >
 
                             <h2 class="text-pretitle with-line" data-animate-el>
-                                About
+                                <span class="lng-about">About me</span>
                             </h2>
 
-                            <p class="attention-getter" data-animate-el>
-                                Specialist with 1+ years of experience. I am able not only to independently 
-                                solve problems, but also to manage other programmers or coach them, as well as to suggest 
-                                the best ways to solve problems, and to carry out code factoring.
+                            <p class="attention-getter lng-specialist" data-animate-el>
+                                I am a professional with less than a year experience. I can not only solve problems on my own, but also work in a team with developers or train new developers, and I also have experience in suggesting the best ways to solve problems and understand other people's code.
                             </p>
 
-                            <a href="#0" class="btn btn--medium u-fullwidth" data-animate-el>Download CV</a>
+                            <a href="https://mega.nz/file/MvFhBajb#co7JlCsQwx_r7Eq1puRUVHe3XzICRuDGq-rpG4EoECg" class="btn btn--medium u-fullwidth" data-animate-el target="_blank"><span class="lng-cv">Download CV</span></a>
 
                         </div>
                     </div>
@@ -157,15 +169,10 @@
                 <div class="row about-expertise" data-animate-block>
                     <div class="column lg-12">
 
-                        <h2 class="text-pretitle" data-animate-el>Expertise</h2>
+                        <h2 class="text-pretitle" data-animate-el><span class="lng-expertise">Expertise</span></h2>
 
                         <ul class="skills-list h1" data-animate-el>
-                            <li>Visual Design</li>
-                            <li>Branding Identity</li>
-                            <li>UI Design</li>
-                            <li>Product Design</li>
-                            <li>Prototyping</li>
-                            <li>Illustration</li>
+                            <li><span class="lng-skills">VVisual design, Branding and Identity, User interface design, Product design, Prototyping, Illustration, C#, C, Python, Web development, Business automation based on 1C: Enterprise, etc. </span></li>
                         </ul>
 
                     </div>
@@ -177,7 +184,7 @@
                     <div class="column lg-6 tab-12">
 
                         <h2 class="text-pretitle" data-animate-el>
-                            Experience
+                            <span class="lng-experience">Experience</span> 
                         </h2>
 
                         <div class="timeline" data-animate-el>
@@ -185,12 +192,14 @@
                             <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
-                                    <h4 class="timeline__title">Dropbox</h3>
-                                    <h5 class="timeline__meta">1C Developer</h5>
-                                    <p class="timeline__timeframe">August 2019 - Present</p>
+                                    <h4 class="timeline__title">Leading Business Software</h3>
+                                    <h5 class="timeline__meta lng-interndev">Intern-developer 1C</h5>
+                                    <p class="timeline__timeframe lng-davr">February 2023 - July 2023</p>
                                 </div>
                                 <div class="timeline__desc">
                                     <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                                    <!-- <span class="lng-atcompany">Type of activity of the enterprise (company): Automation of financial accounting. Automation of business processes. Business automation.</span>
+                                    <span class="lng-atwork">Tasks at work: learning a programming language. Practical application of acquired programming skills. Programming in accordance with the terms of reference of the team leader or lead programmer, or programming by creating terms of reference based on technical data (functional requirements).</span> -->
                                 </div>
                             </div>
     
@@ -213,7 +222,7 @@
                     <div class="column lg-6 tab-12">
 
                         <h2 class="text-pretitle" data-animate-el>
-                            Education
+                            <span class="lng-education">Education</span> 
                         </h2>
 
                         <div class="timeline" data-animate-el>
@@ -656,6 +665,8 @@
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 </html>

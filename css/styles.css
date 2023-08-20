@@ -1748,8 +1748,8 @@ ol,
 dl,
 form,
 img,
-.video-container,
-.ss-custom-select {
+.video-container/* ,
+.ss-custom-select*/ {
     margin-bottom : var(--vspace-1);
 }
 

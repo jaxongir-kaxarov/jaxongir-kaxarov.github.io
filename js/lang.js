@@ -22,7 +22,7 @@ const langArr = {
     "kurs": {
         "ru": "Курсы",
         "en": "Courses",
-        "uz": "Darslar",
+        "uz": "Kurslar",
     },
     "blog" :  {
         "ru": "Блог",

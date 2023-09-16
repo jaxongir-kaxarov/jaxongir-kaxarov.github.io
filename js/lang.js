@@ -223,7 +223,7 @@ const langArr = {
     uz: "Bog'lanish",
   },
   ilove: {
-    ru: "Я готов услышать вас. Если у вас есть вопрос или вы просто хотите поговорить о Автоматизация бизнеса на базе 1С:Предприятия, дизайне, технологиях и искусстве — отправьте мне сообщение.",
+    ru: "Я готов услышать вас. Если у вас есть вопрос или вы просто хотите поговорить об автоматизации бизнеса на базе 1с предприятия, дизайна, технологий и искусства — отправьте мне сообщение.",
     en: "I love hearing from you. If you have a question or just want to talk about Business Automation based on 1C:Enterprise, design, technology and art, send me a message.",
     uz: "Agar Sizda savol bo'lsa, yoki shunchaki 1C:Enterprise asosida biznesni avtomatlashtirish, dizayn, texnologiya va san'at haqida gaplashmoqchi bo'lsangiz, sizni eshitishdan mamnunman, menga xabar yuboring.",
   },

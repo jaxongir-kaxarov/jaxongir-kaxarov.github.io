@@ -2,16 +2,16 @@
 # -------------------------------------
 # {author_id}:
 #   name: {full name}
-#   twitter: {twitter_of_author}
+#   x: {x_of_author}
 #   url: {homepage_of_author}
 # -------------------------------------
 
-yorenwyl:
-  name: Yoren Wylla
-  telegram: yorenwyl
-  url: https://github.com/yorenwyl/
+MrKakharov:
+  name: Jakhongir Kakharov
+  telegram: MrKakharov
+  url: https://github.com/MrKakharov/
 
 cotes:
   name: Cotes Chung
-  twitter: cotes2020
+  x: cotes2020
   url: https://github.com/cotes2020/

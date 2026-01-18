@@ -8,10 +8,10 @@ tabs:
   categories: Kategoriyalar
   tags: Teglar
   archives: Arxiv
-  about: Sayt haqida
+  about: Men haqimda
 
 search:
-  hint: qidirish
+  hint: Qidirish
   cancel: Bekor qilish
   no_results: Afsus! Hech narsa topilmadi.
 

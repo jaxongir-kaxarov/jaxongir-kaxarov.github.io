@@ -1,32 +1,32 @@
 #  The contact options.
 
 - type: github
-  icon: "fab fa-github"
+  icon: "fa-brands fa-github"
 
-- type: telegram
-  icon: "fab fa-telegram"
-  url: "https://t.me/Jakhongir_Kakharov"
-#  noblank: true # open link in current tab
-
-# - type: twitter
-#  icon: "fa-brands fa-x-twitter"
+# - type: orcid
+#   icon: "fa-brands fa-orcid"
+#   url: 'https://orcid.org/0009-0003-6462-6600'
 
 - type: email
-  icon: "fas fa-envelope"
-#  noblank: true # open link in current tab
+  icon: "fa-solid fa-envelope"
+  noblank: true            # open link in current tab
 
 - type: rss
-  icon: "fas fa-rss"
-#  noblank: true
+  icon: "fa-solid fa-rss"
+  noblank: true
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
+#   url:  ''                  # Fill with your mastodon account page, rel="me" will be applied for verification
 #
-# - type: linkedin
-#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Linkedin homepage
+- type: linkedin
+  icon: "fa-brands fa-linkedin"  # icons powered by <https://fontawesome.com/>
+  url:  'https://www.linkedin.com/in/jaxongir-kaxarov'   # Fill with your Linkedin homepage
+
+- type: twitter
+  icon: "fa-brands fa-x-twitter"
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
@@ -40,6 +40,6 @@
 #   icon: 'fa-brands fa-reddit'
 #   url: ''                   # Fill with your Reddit profile link
 #
-# - type: threads
-#   icon: 'fa-brands fa-threads'
-#   url: ''                   # Fill with your Threads profile link
+- type: threads
+  icon: 'fa-brands fa-threads'
+  url: 'https://www.threads.net/@jaxongir_kaxarov'                   # Fill with your Threads profile link

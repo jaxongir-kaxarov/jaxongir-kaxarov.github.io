@@ -5,6 +5,7 @@ date: 2025-03-26 02:04:00 +0500
 categories: [Chirpy, O'rganish]
 tags: [Chirpy]
 render_with_liquid: false
+lang: uz-UZ
 ---
 
 Ushbu qo'llanma sizga _Chirpy_ shablonida qanday qilib maqola yozishni ko'rsatadi va agar siz ilgari Jekyll'dan foydalangan bo'lsangiz ham, ko'plab xususiyatlar uchun maxsus o'zgaruvchilarni o'rnatish kerak bo'lganligi sababli, uni o'qishga arziydi.

@@ -44,7 +44,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/mrkakharov/       # change to your GitHub homepage
-    - https://twitter.com/mrkakharov   # change to your Twitter homepage
+    - https://twitter.com/mrkakharov/      # change to your Twitter homepage
     # Uncomment below to add more social links
     - https://www.facebook.com/mrkakharov
     - https://www.linkedin.com/in/jaxongir-kaxarov
@@ -117,7 +117,7 @@ theme_mode:   # [light|dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: 'https://avatars.githubusercontent.com/u/181833770?s=400&u=31e24c4d62065f267beb9c6f68b6081b8ac4339c&v=4' # string, keep empty means disabled
+cdn: # string, keep empty means disabled
 
 # the avatar on sidebar, support local or CORS resources
 avatar: 'https://avatars.githubusercontent.com/u/181833770?s=400&u=31e24c4d62065f267beb9c6f68b6081b8ac4339c&v=4' # '/assets/img/profile.tiff'

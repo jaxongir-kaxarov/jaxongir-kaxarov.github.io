@@ -6,6 +6,9 @@ order: 4
 
 ## Rezyume / Resume / Резюме
 
+## Video
+
+{% include embed/youtube.html id="qWQlxxCGxmo" %}
 
 <details>
       <summary>📕 O'zbek: Quyida mening rezyumem (PDF)ni topishingiz mumkin.</summary>

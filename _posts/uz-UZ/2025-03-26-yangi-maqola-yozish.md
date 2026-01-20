@@ -1,10 +1,14 @@
 ---
 title: Yangi maqola Yozish
-author: yorenwyl
+author:
+  - cotes
+  - yorenwyl
 date: 2025-03-26 02:04:00 +0500
-categories: [Chirpy, O'rganish]
+categories: [Blog, O'rganish]
 tags: [Chirpy]
 render_with_liquid: false
+image:
+  path: /assets/img/articles/2025-03-26-mant-va-tipografiya/writing.png
 lang: uz-UZ
 ---
 
@@ -32,7 +36,7 @@ tags: [TAG]     # TAG nomlari har doim kichik harflarda bo'lishi kerak
 
 ### Sana Vaqt Zonasi
 
-Postning chiqarilish sanasini aniq qayd etish uchun, siz nafaqat `_config.yml`{: .filepath} ning `timezone` ni o'rnatishingiz, balki Front Matter blokidagi `date` o'zgaruvchisida postning vaqt zonasini ham ko'rsatishingiz kerak. Format: `+/-TTTT`, masalan, `+0800`.
+Postning chiqarilish sanasini aniq qayd etish uchun, siz nafaqat `_config.yml`{: .filepath} ning `timezone` ni o'rnatishingiz, balki Front Matter blokidagi `date` o'zgaruvchisida postning vaqt zonasini ham ko'rsatishingiz kerak. Format: `+/-TTTT`, masalan, `+0500`.
 
 ### Kategoriyalar va Teglar
 

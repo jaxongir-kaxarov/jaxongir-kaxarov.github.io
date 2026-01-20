@@ -1,19 +1,22 @@
 ---
 title: Начало работы с Jekyll
-description: Ознакомьтесь с основами темы Chirpy для Jekyll. В этом руководстве вы узнаете, как установить, настроить и использовать сайт на основе темы Chirpy, а также как развернуть его на веб‑сервере.
-authors:
+description: >-
+  Ознакомьтесь с основами темы Chirpy для Jekyll. В этом руководстве вы узнаете, как установить, настроить и использовать сайт на основе темы Chirpy, а также как развернуть его на веб‑сервере.
+author:
   - cotes
   - yorenwyl
-date: 2025-03-26 20:55:00 +0800
+date: 2025-03-26 20:55:00 +0500
 categories:
-  - Chirpy
+  - Blog
   - Обучение
 tags:
   - Chirpy
 pin: true
-media_subpath: /assets/img/articles/2025-03-26-jekyllda-ishlashni-boshlash
+render_with_liquid: false
+image:
+  path: writing.png
+media_subpath: '/assets/img/articles/2025-03-26-jekyllda-ishlashni-boshlash'
 last_modified_at: 2025-07-25 20:55:00 +0800
-author: yorenwyl
 lang: ru-RU
 ---
 ## Создание репозитория сайта

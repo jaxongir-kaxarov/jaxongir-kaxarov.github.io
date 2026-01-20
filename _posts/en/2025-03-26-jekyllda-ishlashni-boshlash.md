@@ -6,8 +6,11 @@ description: >-
 author: cotes
 date: 2019-08-09 20:55:00 +0800
 categories: [Blogging, Tutorial]
-tags: [getting started]
+tags: [Chirpy]
 pin: true
+render_with_liquid: false
+image:
+  path: writing.png
 media_subpath: '/assets/img/articles/2025-03-26-jekyllda-ishlashni-boshlash'
 lang: en
 ---

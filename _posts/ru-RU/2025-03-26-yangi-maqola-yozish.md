@@ -1,10 +1,14 @@
 ---
 title: Написание новой статьи
-author: yorenwyl
+author:
+  - cotes
+  - yorenwyl
 date: 2025-03-26 02:04:00 +0500
-categories: [Chirpy, Обучение]
+categories: [Blog, Обучение]
 tags: [Chirpy]
 render_with_liquid: false
+image:
+  path: /assets/img/articles/2025-03-26-mant-va-tipografiya/writing.png
 lang: ru-RU
 ---
 

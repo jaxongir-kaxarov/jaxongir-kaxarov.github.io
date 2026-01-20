@@ -1,22 +1,25 @@
 ---
 title: Jekyllda ishlashni boshlash
-description: Jekyllning Chirpy mavzusi asoslari bilan tanishing. Ushbu
+description: >-
+  Jekyllning Chirpy mavzusi asoslari bilan tanishing. Ushbu
   qo'llanmada siz Jekyllning Chirpy Chirpy asosidagi veb-saytni qanday
   o'rnatish, sozlash va ishlatishni, shuningdek, uni veb-serverga
   joylashtirishni o'rganasiz.
-authors:
+author:
   - cotes
   - yorenwyl
-date: 2025-03-26 20:55:00 +0800
+date: 2025-03-26 20:55:00 +0500
 categories:
-  - Chirpy
+  - Blog
   - O'rganish
 tags:
   - Chirpy
 pin: true
-media_subpath: /assets/img/articles/2025-03-26-jekyllda-ishlashni-boshlash
-last_modified_at: 2025-07-25 20:55:00 +0800
-author: yorenwyl
+render_with_liquid: false
+image:
+  path: writing.png
+media_subpath: '/assets/img/articles/2025-03-26-jekyllda-ishlashni-boshlash'
+last_modified_at: 2025-07-25 20:55:00 +0500
 lang: uz-UZ
 ---
 ## Sayt Repozitoriyasini Yaratish

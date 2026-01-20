@@ -1,9 +1,11 @@
 ---
 title: Текст и типографика
 description: Примеры текста, типографики, математических уравнений, диаграмм, блок-схем, изображений, видео и прочего.
-author: cotes
+author:
+  - cotes
+  - yorenwyl
 date: 2025-03-26 02:03:00 +0500
-categories: [Chirpy, "Обучение"]
+categories: [Blog, "Обучение"]
 tags: [Chirpy]
 pin: true
 math: true

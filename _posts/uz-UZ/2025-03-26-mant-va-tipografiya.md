@@ -197,7 +197,7 @@ Quyidagi rasm mavzu afzalligiga qarab qorong'i/yorug' rejimni almashtiradi, e'ti
 
 ## Video
 
-{% include embed/youtube.html id='Balreaj8Yqs' %}
+{% include embed/youtube.html id="qWQlxxCGxmo" %}
 
 ## Teskari Izoh
 

@@ -197,7 +197,7 @@ _Полная ширина экрана и центрированное выра
 
 ## Видео
 
-{% include embed/youtube.html id='Balreaj8Yqs' %}
+{% include embed/youtube.html id="qWQlxxCGxmo" %}
 
 ## Сноски
 

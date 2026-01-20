@@ -7,7 +7,7 @@ date: 2025-03-26 20:55:00 +0800
 categories:
   - Chirpy
   - Обучение
-tags: [favicon]
+tags: [Chirpy]
 pin: true
 last_modified_at: 2025-07-25 20:55:00 +0800
 author: yorenwyl

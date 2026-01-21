@@ -3,13 +3,18 @@
 - type: github
   icon: "fa-brands fa-github"
 
+- type: telegram
+  icon: "fab fa-telegram"
+  url: "https://t.me/yorenwyl"
+  noblank: true # open link in current tab
+
 # - type: orcid
 #   icon: "fa-brands fa-orcid"
 #   url: 'https://orcid.org/0009-0003-6462-6600'
 
 - type: email
   icon: "fa-solid fa-envelope"
-  noblank: true            # open link in current tab
+  noblank: true # open link in current tab
 
 - type: rss
   icon: "fa-solid fa-rss"

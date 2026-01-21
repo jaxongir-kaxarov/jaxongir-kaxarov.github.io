@@ -6,7 +6,7 @@
 - type: telegram
   icon: "fab fa-telegram"
   url: "https://t.me/Jakhongir_Kakharov"
-  noblank: true # open link in current tab
+  # noblank: true # open link in current tab
 
 # - type: orcid
 #   icon: "fa-brands fa-orcid"
@@ -14,11 +14,12 @@
 
 - type: email
   icon: "fa-solid fa-envelope"
-  noblank: true # open link in current tab
+  url: "mailto:devjk@tuta.io"
+  # noblank: true # agar linkni hozirgi oynada ochmoqchi bo'lsangiz
 
 - type: rss
   icon: "fa-solid fa-rss"
-  noblank: true
+  # noblank: true
 
 # Uncomment and complete the url below to enable more contact options
 #
@@ -47,4 +48,14 @@
 #
 - type: threads
   icon: 'fa-brands fa-threads'
-  url: 'https://www.threads.net/@jaxongir_kaxarov'                   # Fill with your Threads profile link
+  url: 'https://www.threads.net/@jaxongir_kaxarov' # Fill with your Threads profile link
+  
+- type: instagram
+  icon: 'fa-brands fa-instagram'
+  url: 'https://www.instagram.com/jaxongir_kaxarov'
+
+- type: whatsapp
+  icon: 'fa-brands fa-whatsapp'
+  url: 'https://wa.me/998333641411'
+
+ 

@@ -8,12 +8,12 @@ date: 2019-08-09 20:55:00 +0800
 categories: [Blogging, Tutorial]
 tags: [Chirpy]
 pin: true
-render_with_liquid: false
-image:
-  path: writing.png
 media_subpath: '/assets/img/articles/2025-03-26-jekyllda-ishlashni-boshlash'
 lang: en
 ---
+
+![faqat yorug' rejim](writing-light.png){: .light .w-75 .shadow .rounded-10 }
+![faqat qorong'i rejim](writing-dark.png){: .dark .w-75 .shadow .rounded-10 }
 
 ## Creating a Site Repository
 

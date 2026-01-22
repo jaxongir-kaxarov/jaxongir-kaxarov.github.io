@@ -3,10 +3,9 @@
 - type: github
   icon: "fa-brands fa-github"
 
-- type: telegram
-  icon: "fab fa-telegram"
-  url: "https://t.me/Jakhongir_Kakharov"
-  # noblank: true # open link in current tab
+- type: linkedin
+  icon: "fa-brands fa-linkedin"  # icons powered by <https://fontawesome.com/>
+  url:  'https://www.linkedin.com/in/jaxongir-kaxarov'   # Fill with your Linkedin homepage
 
 # - type: orcid
 #   icon: "fa-brands fa-orcid"
@@ -26,10 +25,6 @@
 # - type: mastodon
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your mastodon account page, rel="me" will be applied for verification
-#
-- type: linkedin
-  icon: "fa-brands fa-linkedin"  # icons powered by <https://fontawesome.com/>
-  url:  'https://www.linkedin.com/in/jaxongir-kaxarov'   # Fill with your Linkedin homepage
 
 - type: twitter
   icon: "fa-brands fa-x-twitter"
@@ -49,13 +44,18 @@
 - type: threads
   icon: 'fa-brands fa-threads'
   url: 'https://www.threads.net/@jaxongir_kaxarov' # Fill with your Threads profile link
-  
+
 - type: instagram
   icon: 'fa-brands fa-instagram'
   url: 'https://www.instagram.com/jaxongir_kaxarov'
+
+- type: telegram
+  icon: "fab fa-telegram"
+  url: "https://t.me/Jakhongir_Kakharov"
+  # noblank: true # open link in current tab
 
 - type: whatsapp
   icon: 'fa-brands fa-whatsapp'
   url: 'https://wa.me/998333641411'
 
- 
+

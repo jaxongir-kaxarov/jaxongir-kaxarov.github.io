@@ -33,7 +33,7 @@ copyright:
 meta: :THEME mavzusidan foydalanadi :PLATFORM platformasi uchun
 
 not_found:
-  statement: Kechirasiz, URL noto‘g‘ri yoki mavjud bo‘lmagan sahifaga olib boradi.
+  statement: ⚠️ Kechirasiz, URL noto‘g‘ri yoki mavjud bo‘lmagan sahifaga olib boradi.
 
 notification:
   update_found: Yangi kontent versiyasi mavjud.
@@ -56,7 +56,7 @@ post:
     copy_code:
       succeed: Nusxa olindi!
     share_link:
-      title: Havolani nusxa olish
+      title: Havoladan nusxa olish
       succeed: Havola muvaffaqiyatli nusxalandi!
 
 df:

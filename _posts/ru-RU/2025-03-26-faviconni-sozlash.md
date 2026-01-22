@@ -1,18 +1,14 @@
 ---
 title: Настройка фавикона
-authors:
-  - cotes
-  - yorenwyl
-date: 2025-03-26 20:55:00 +0500
+author: MrKakharov
+date: 2026-01-20 12:10:00 +0500
 categories:
   - Blog
   - Обучение
 tags: [Chirpy]
 pin: true
 last_modified_at: 2025-07-25 20:55:00 +0800
-author:
-  - cotes
-  - yorenwyl
+author: mrkakharov
 image:
   path: /web-app-manifest-512x512.png
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA

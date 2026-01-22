@@ -1,10 +1,8 @@
 ---
 title: Текст и типографика
 description: Примеры текста, типографики, математических уравнений, диаграмм, блок-схем, изображений, видео и прочего.
-author:
-  - cotes
-  - yorenwyl
-date: 2025-03-26 02:03:00 +0500
+author: MrKakharov
+date: 2026-01-20 12:30:00 +0500
 categories: [Blog, "Обучение"]
 tags: [Chirpy]
 pin: true

@@ -1,9 +1,7 @@
 ---
 title: Faviconni Sozlash
-author:
-  - cotes
-  - yorenwyl
-date: 2025-03-26 20:55:00 +0500
+author: MrKakharov
+date: 2026-01-20 12:10:00 +0500
 categories:
   - Blog
   - O'rganish

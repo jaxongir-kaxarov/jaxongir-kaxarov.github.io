@@ -1,14 +1,12 @@
 ---
 title: Yangi maqola Yozish
-author:
-  - cotes
-  - yorenwyl
-date: 2025-03-26 02:04:00 +0500
+author: MrKakharov
+date: 2026-01-20 12:40:00 +0500
 categories: [Blog, O'rganish]
 tags: [Chirpy]
 render_with_liquid: false
 image:
-  path: /assets/img/articles/2025-03-26-mant-va-tipografiya/writing.png
+  path: /assets/img/articles/2025-03-26-mant-va-tipografiya/writing.gif
 lang: uz-UZ
 ---
 

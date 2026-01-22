@@ -5,23 +5,22 @@ description: >-
   qo'llanmada siz Jekyllning Chirpy Chirpy asosidagi veb-saytni qanday
   o'rnatish, sozlash va ishlatishni, shuningdek, uni veb-serverga
   joylashtirishni o'rganasiz.
-author:
-  - cotes
-  - yorenwyl
-date: 2025-03-26 20:55:00 +0500
+author: MrKakharov
+date: 2026-01-20 12:20:00 +0500
 categories:
   - Blog
   - O'rganish
 tags:
   - Chirpy
 pin: true
-render_with_liquid: false
-image:
-  path: writing.png
 media_subpath: '/assets/img/articles/2025-03-26-jekyllda-ishlashni-boshlash'
 last_modified_at: 2025-07-25 20:55:00 +0500
 lang: uz-UZ
 ---
+
+![faqat yorug' rejim](writing-light.png){: .light .w-75 .shadow .rounded-10 }
+![faqat qorong'i rejim](writing-dark.png){: .dark .w-75 .shadow .rounded-10 }
+
 ## Sayt Repozitoriyasini Yaratish
 
 Sayt repozitoriyasini yaratishda, ehtiyojlaringizga qarab ikkita variant mavjud:

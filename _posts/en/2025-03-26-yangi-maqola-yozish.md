@@ -6,7 +6,7 @@ categories: [Blogging, Tutorial]
 tags: [Chirpy]
 render_with_liquid: false
 image:
-  path: /assets/img/articles/2025-03-26-mant-va-tipografiya/writing.png
+  path: /assets/img/articles/2025-03-26-mant-va-tipografiya/writing.gif
 lang: en
 ---
 

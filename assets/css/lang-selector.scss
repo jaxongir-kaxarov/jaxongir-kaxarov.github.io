@@ -2,104 +2,158 @@
 ---
 
 /**
- * 언어 선택기 스타일
- * 
- * 사이드바에 위치한 언어 선택 드롭다운의 스타일을 정의합니다.
- * 테마의 다크 모드를 지원하며, 모바일 환경에서도 최적화되어 있습니다.
+ * Til tanlagich uslublari - iOS stilida
  */
 
-/* 언어 선택기 컨테이너 */
+/* Til tanlagich konteyneri */
 .lang-selector-wrapper {
-    padding: 0.35rem;
-    margin: 0.15rem 0;
-    text-align: center;
+  padding: 0.5rem 1.5rem;
+  margin: 0.5rem 0;
+  position: relative;
 }
 
-/* 드롭다운 컨테이너 */
+/* Dropdown konteyneri */
 .lang-dropdown {
-    position: relative;
-    display: inline-block;
-    width: auto;
-    min-width: 120px;
-    max-width: 80%;
+  position: relative;
+  display: block;
+  width: 100%;
 }
 
-/* 선택 입력 요소 */
+/* Asosiy select elementi */
 .lang-select {
-    /* 기본 스타일 */
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    width: 100%;
-    padding: 0.5rem 2rem 0.5rem 1rem;
-    
-    /* 폰트 및 색상 */
-    font-family: "Pretendard JP Variable", "Pretendard Variable", sans-serif;
-    font-size: 0.95rem;
-    color: var(--sidebar-muted);
-    background-color: var(--sidebar-bg);
-    
-    /* 모양 및 상호작용 */
-    border-radius: var(--bs-border-radius, 0.375rem);
-    cursor: pointer;
-    transition: all 0.2s ease;
-    
-    /* 화살표 아이콘 추가 */
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
-    background-repeat: no-repeat;
-    background-position: right 0.75rem center;
-    background-size: 1rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 0.65rem 1rem;
+
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  color: var(--sidebar-muted-color, #a0a0a0);
+  background-color: transparent;
+  border: none;
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  padding-left: 2.5rem;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%23a0a0a0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='2' y1='12' x2='22' y2='12'%3E%3C/line%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'%3E%3C/path%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23a0a0a0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position:
+    left 0.75rem center,
+    right 1rem center;
+  background-size: 18px, 14px;
 }
 
-/* 국기 이모지 스타일 */
+/* ========== DROPDOWN OPTIONS - iOS STILI ========== */
+
+/* Webkit brauzerlar uchun (Chrome, Safari, Edge) */
 .lang-select option {
-    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
-    padding: 0.35rem;
-    font-size: 1rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  /* iOS'dek yumaloq burchaklar - faqat Webkit da ishlaydi */
+  border-radius: 12px;
+  margin: 4px;
+  padding: 12px 16px;
+
+  /* Ranglar */
+  background-color: var(--sidebar-bg, #1e1e1e);
+  color: var(--sidebar-muted-color, #a0a0a0);
+
+  /* Border yo'q */
+  border: none;
 }
 
-.lang-flag {
-    display: inline-block;
-    margin-right: 0.5rem;
-    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+/* Hover va selected holatlari - sidebar ranglariga mos */
+.lang-select option:hover,
+.lang-select option:focus,
+.lang-select option:checked {
+  background-color: var(
+    --sidebar-hover-bg,
+    rgba(255, 255, 255, 0.1)
+  ) !important;
+  color: var(--sidebar-active-color, #ffffff) !important;
 }
 
-/* 호버 상태 */
-.lang-select:hover {
-    color: var(--sidebar-active);
-    background-color: var(--sidebar-hover);
-}
-
-/* 포커스 상태 */
-.lang-select:focus {
-    outline: 2px solid var(--sidebar-active);
-    outline-offset: 2px;
-    color: var(--sidebar-active);
-}
-
-/* Firefox 브라우저 대응 */
+/* Firefox uchun */
 .lang-select:-moz-focusring {
-    color: transparent;
-    text-shadow: 0 0 0 var(--sidebar-muted);
+  color: transparent;
+  text-shadow: 0 0 0 var(--sidebar-muted-color, #a0a0a0);
 }
 
-/* IE 브라우저 대응 */
+/* IE */
 .lang-select::-ms-expand {
-    display: none;
+  display: none;
 }
 
-/* 다크 모드 대응 */
-[data-mode="dark"] .lang-select {
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+/* Asosiy select hover */
+.lang-select:hover {
+  color: var(--sidebar-active-color, #ffffff);
+  background-color: var(--sidebar-hover-bg, rgba(255, 255, 255, 0.1));
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='2' y1='12' x2='22' y2='12'%3E%3C/line%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'%3E%3C/path%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
 }
 
-/* 모바일 환경 최적화 */
+.lang-select:focus {
+  outline: none;
+  color: var(--sidebar-active-color, #ffffff);
+  background-color: var(--sidebar-hover-bg, rgba(255, 255, 255, 0.15));
+}
+
+/* ========== LIGHT REJIM ========== */
+[data-mode='light'] .lang-select {
+  color: var(--sidebar-muted-color, #666666);
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%23666666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='2' y1='12' x2='22' y2='12'%3E%3C/line%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'%3E%3C/path%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23666666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+}
+
+[data-mode='light'] .lang-select option {
+  background-color: var(--sidebar-bg, #f8f9fa);
+  color: var(--sidebar-muted-color, #666666);
+}
+
+[data-mode='light'] .lang-select option:hover,
+[data-mode='light'] .lang-select option:focus,
+[data-mode='light'] .lang-select option:checked {
+  background-color: var(--sidebar-hover-bg, rgba(0, 0, 0, 0.05)) !important;
+  color: var(--sidebar-active-color, #333333) !important;
+}
+
+[data-mode='light'] .lang-select:hover {
+  color: var(--sidebar-active-color, #333333);
+  background-color: var(--sidebar-hover-bg, rgba(0, 0, 0, 0.05));
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%23333333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='2' y1='12' x2='22' y2='12'%3E%3C/line%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'%3E%3C/path%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23333333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+}
+
+/* ========== MOBIL ========== */
 @media (max-width: 768px) {
-    .lang-select {
-        padding: 0.75rem 2rem 0.75rem 1rem;  /* 더 큰 터치 영역 */
-    }
-    
-    .lang-dropdown {
-        min-width: 140px;  /* 모바일에서 더 넓은 선택 영역 */
-    }
+  .lang-selector-wrapper {
+    padding: 0.75rem 1.25rem;
+  }
+
+  .lang-select {
+    padding: 0.75rem 1rem;
+    padding-left: 2.5rem;
+    font-size: 0.95rem;
+  }
+
+  .lang-select option {
+    padding: 14px 18px;
+    font-size: 0.95rem;
+  }
 }

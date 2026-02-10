@@ -7,7 +7,7 @@ tags: [Chirpy]
 render_with_liquid: false
 image:
   path: /assets/img/articles/2025-03-26-mant-va-tipografiya/writing.gif
-lang: ru-RU
+lang: ru
 ---
 
 Это руководство покажет вам, как писать статьи в шаблоне _Chirpy_. Даже если вы раньше использовали Jekyll, стоит ознакомиться — для многих возможностей требуются специальные переменные.

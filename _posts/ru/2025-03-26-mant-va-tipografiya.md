@@ -5,7 +5,6 @@ author: MrKakharov
 date: 2026-01-20 12:30:00 +0500
 categories: [Blog, "Обучение"]
 tags: [Chirpy]
-pin: true
 math: true
 mermaid: true
 image:
@@ -13,7 +12,6 @@ image:
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
   alt: Адаптивный вид темы Chirpy на нескольких устройствах.
 media_subpath: '/assets/img/articles/2025-03-26-mant-va-tipografiya'
-lang: ru
 ---
 
 ## Заголовки

@@ -7,7 +7,6 @@ tags: [Chirpy]
 render_with_liquid: false
 image:
   path: /assets/img/articles/2025-03-26-mant-va-tipografiya/writing.gif
-lang: uz
 ---
 
 Ushbu qo'llanma sizga _Chirpy_ shablonida qanday qilib maqola yozishni ko'rsatadi va agar siz ilgari Jekyll'dan foydalangan bo'lsangiz ham, ko'plab xususiyatlar uchun maxsus o'zgaruvchilarni o'rnatish kerak bo'lganligi sababli, uni o'qishga arziydi.

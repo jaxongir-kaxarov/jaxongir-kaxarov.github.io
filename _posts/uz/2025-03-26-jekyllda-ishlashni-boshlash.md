@@ -12,10 +12,8 @@ categories:
   - O'rganish
 tags:
   - Chirpy
-pin: true
 media_subpath: '/assets/img/articles/2025-03-26-jekyllda-ishlashni-boshlash'
 last_modified_at: 2025-07-25 20:55:00 +0500
-lang: uz
 ---
 
 ![faqat yorug' rejim](writing-light.png){: .light .w-75 .shadow .rounded-10 }

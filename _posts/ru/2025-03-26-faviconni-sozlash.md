@@ -6,7 +6,6 @@ categories:
   - Blog
   - Обучение
 tags: [Chirpy]
-pin: true
 last_modified_at: 2025-07-25 20:55:00 +0800
 author: mrkakharov
 image:
@@ -14,7 +13,6 @@ image:
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
   alt: Responsive rendering of Chirpy theme on multiple devices.
 media_subpath: '/assets/img/articles/2025-03-26-mant-va-tipografiya'
-lang: ru
 ---
 [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/) фавиконы находятся в каталоге `assets/img/favicons/`{: .filepath}. Вы можете заменить их на свои фавиконы. Ниже приведены разделы с инструкциями по созданию и замене стандартных фавиконов.
 

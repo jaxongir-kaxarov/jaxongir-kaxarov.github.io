@@ -14,19 +14,19 @@ timezone: Asia/Tashkent
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Jakhongir Kakharov        # the main title
+title: "Jakhongir Kakharov's Notes"        # the main title
 
 tagline: blog. # it will display as the subtitle
 
 description: >-                        # used by seo meta and the atom feed
-  Jakhongir Kakharov's personal blog mainly covering programming, mathematics, physics, and engineering.
+  "Jakhongir Kakharov's personal blog mainly covering programming, mathematics, physics, and engineering."
 
 # fill in the protocol & hostname for your site
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://mrkakharov.github.io"  # the base hostname & protocol for your site
 
 github:
-  username: MrKakharov                    # change to your GitHub username
+  username: jaxongir-kaxarov                    # change to your GitHub username
 
 twitter:
   username: MrKakharov                # change to your Twitter username
@@ -34,7 +34,7 @@ twitter:
 author:
   name: Jakhongir Kakharov               # change to your full name
   twitter: MrKakharov           # change to your Twitter username
-  url: https://mrkakhrov.github.io         # change to your personal homepage
+  url: https://jaxongir-kaxarov.github.io         # change to your personal homepage
 
 social:
   # Change to your full name.
@@ -43,7 +43,7 @@ social:
   email: devjk@tuta.io        # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/mrkakharov/       # change to your GitHub homepage
+    - https://github.com/jaxongir-kaxarov/       # change to your GitHub homepage
     - https://twitter.com/mrkakharov/      # change to your Twitter homepage
     # Uncomment below to add more social links
     - https://www.facebook.com/mrkakharov
@@ -53,7 +53,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: AUlHZNteJbS4CdnOj-2_RSqAmRuvZGuSqxlSXrrLVhY # fill in your Google verification code
+  google: # fill in your Google verification code
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
@@ -66,9 +66,9 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: G-FBSWTJ27CE # fill in your Google Analytics ID
+    id: # fill in your Google Analytics ID
   goatcounter:
-    id: yunseo # fill in your GoatCounter ID
+    id: # fill in your GoatCounter ID
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
@@ -82,7 +82,7 @@ analytics:
 
 # Page views settings
 pageviews:
-  provider: goatcounter # now only supports 'goatcounter'
+  provider: # now only supports 'goatcounter'
 
 # --------------------------
 # Features not included in the original Chirpy theme, customized by the site author Yunseo Kim (https://github.com/yunseo-kim).
@@ -90,11 +90,11 @@ pageviews:
 # Session Recordings Settings
 session_recordings:
   clarity:
-    id: nbxyh17xog  # fill in your Microsoft Clarity ID
+    id: # fill in your Microsoft Clarity ID
 
 # Ad Networks Settings
 ad_networks:
-  adsense: pub-8691553075583022  # fill in your Google AdSense publisher ID (It looks like pub-1234567890123456)
+  adsense: # fill in your Google AdSense publisher ID (It looks like pub-1234567890123456)
 
 # ↑ --------------------------
 # The end of customized settings by Yunseo Kim

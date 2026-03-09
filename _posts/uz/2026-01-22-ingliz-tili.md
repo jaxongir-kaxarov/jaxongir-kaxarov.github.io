@@ -2,7 +2,7 @@
 title: Ingliz tili 0 dan o'rganish darslari
 author: MrKakharov
 date: 2026-01-22 12:10:00 +0500
-categories: ["Ingliz tili"]
+categories: ["Ingliz tili", Darslar]
 tags: ["ingliz tili darslari"]
 image:
   path: ingliz_tili.jpg

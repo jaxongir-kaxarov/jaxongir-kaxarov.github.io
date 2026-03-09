@@ -2,7 +2,7 @@
 title: Learn English from Zero Lessons
 author: MrKakharov
 date: 2026-01-22 12:10:00 +0500
-categories: [English]
+categories: [English, Lessons]
 tags: ["english lessons"]
 image:
   path: ingliz_tili.jpg

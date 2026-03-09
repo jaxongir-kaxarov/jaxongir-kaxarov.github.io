@@ -2,7 +2,7 @@
 title: Уроки английского языка с нуля
 author: MrKakharov
 date: 2026-01-22 12:10:00 +0500
-categories: ["Английский язык"]
+categories: ["Английский язык", Уроки]
 tags: ["уроки английского"]
 image:
   path: ingliz_tili.jpg

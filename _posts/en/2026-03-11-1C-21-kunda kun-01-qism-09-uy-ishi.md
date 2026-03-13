@@ -14,6 +14,10 @@ tags: ["1C 8.3 programming in 21 days"]
 
 ---
 
+> 🇬🇧 You can download the lesson `assignment` file using the link below:  
+> [Download file (PDF)](https://drive.google.com/file/d/1QyTjOG-mBocXzvLYzAkR5_EI9mYLudGN/view?usp=sharing){: target="_blank" }
+{: .prompt-tip .shadow }
+
 ### **1C Programming Course (21 days) - Homework explanation**
 
 #### **Course structure:**

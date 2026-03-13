@@ -14,7 +14,7 @@ tags: ["1C 8.3 da dasturlash – 21 kunda"]
 
 ---
 
->Dars `topshirig'i` faylini havola orqali yuklab olishingiz mumkin:  
+> 🇺🇿 Dars `topshirig'i` faylini havola orqali yuklab olishingiz mumkin:  
 > [Faylni yuklab olish (PDF)](https://drive.google.com/file/d/1QyTjOG-mBocXzvLYzAkR5_EI9mYLudGN/view?usp=sharing){: target="_blank" }
 {: .prompt-tip .shadow }
 

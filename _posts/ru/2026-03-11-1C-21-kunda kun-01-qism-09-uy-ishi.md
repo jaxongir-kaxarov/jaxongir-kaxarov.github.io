@@ -14,6 +14,10 @@ tags: ["Программирование в 1C 8.3 — за 21 день"]
 
 ---
 
+> 🇷🇺 Файл `задания` к уроку можно скачать по ссылке:  
+> [Скачать файл (PDF)](https://drive.google.com/file/d/1QyTjOG-mBocXzvLYzAkR5_EI9mYLudGN/view?usp=sharing){: target="_blank" }
+{: .prompt-tip .shadow }
+
 ### **Курс по программированию 1C (21 день) — объяснение домашних заданий**
 
 #### **Структура курса:**

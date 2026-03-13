@@ -1,16 +1,16 @@
 ---
-title: "1C 8.3 in 21 Days (Day 01, Part 07)"
+title: "1C 8.3 in 21 Days (Day 01, Part 09)"
 description: >-
   An explanatory video by Evgeniy Gilyov about the homework for the 1C programming course. It covers the structure of the homework, how to use video solutions, the specifics of Homework 1, and the plan for the next lesson.
 author: MrKakharov
-date: 2026-03-09 12:19:00 +0500
+date: 2026-03-11 13:20:00 +0500
 categories: ["1C", "1C 8.3 programming in 21 days"]
 tags: ["1C 8.3 programming in 21 days"]
 ---
 
-## 1C 8.3 Programming in 21 Days (Day 01, Part 07)
+## 1C 8.3 Programming in 21 Days (Day 01, Part 09)
 
-{% include embed/youtube.html id="N1EQ1i_OcWw" %}
+{% include embed/gdrivevideo.html id='1yaMZePxJF1YKbNIUFVKYMvttbIDy0PEJ' %}
 
 ---
 
